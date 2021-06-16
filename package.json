@@ -1,0 +1,25 @@
+{
+  "name": "silly-logging-middleware",
+  "version": "1.0.0",
+  "description": "A logging middleware for express so simple it's silly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlefebvr/silly-logging-middleware.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "logging",
+    "silly"
+  ],
+  "author": "Martin Lefebvre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlefebvr/silly-logging-middleware/issues"
+  },
+  "homepage": "https://github.com/mlefebvr/silly-logging-middleware#readme"
+}
