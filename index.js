@@ -13,11 +13,11 @@ const log = (request, response, next) => {
     const { body, params, query } = request
 
     console.log(JSON.stringify({
-      app: process.env.APP || 'none',
-      environment: process.env.NODE_ENV || 'none',
+      environment: process.env.NODE_ENV,
+      app: process.env.APP,
       timestamp: responseTime,
       details: {
-        url: request.url,
+        url: request.originalUrl,
         ...body,
         ...params,
         ...query,
