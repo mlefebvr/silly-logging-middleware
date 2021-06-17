@@ -17,6 +17,7 @@ const log = (request, response, next) => {
       environment: process.env.NODE_ENV || 'none',
       timestamp: responseTime,
       details: {
+        url: request.url,
         ...body,
         ...params,
         ...query,
